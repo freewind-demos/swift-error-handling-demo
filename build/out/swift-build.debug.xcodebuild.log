@@ -1,0 +1,347 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -project /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/swift_error_handling_demo.xcodeproj -scheme swift_error_handling_demo -configuration Debug -destination platform=macOS,arch=x86_64 -derivedDataPath /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData ONLY_ACTIVE_ARCH=YES ARCHS=x86_64 CONFIGURATION_BUILD_DIR=/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug build
+
+Build settings from command line:
+    ARCHS = x86_64
+    CONFIGURATION_BUILD_DIR = /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug
+    ONLY_ACTIVE_ARCH = YES
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'swift_error_handling_demo' in project 'swift_error_handling_demo' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 09cfd57c42290eba9da3259ce458b2bd
+Build description path: /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/XCBuildData/09cfd57c42290eba9da3259ce458b2bd.xcbuilddata
+CreateBuildDirectory /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Products
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/swift_error_handling_demo.xcodeproj
+    builtin-create-build-directory /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Products
+
+CreateBuildDirectory /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/swift_error_handling_demo.xcodeproj
+    builtin-create-build-directory /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug
+
+CreateBuildDirectory /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/swift_error_handling_demo.xcodeproj
+    builtin-create-build-directory /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/SDKStatCaches.noindex/macosx26.2-25C58-00fa09913b459cbbc988d1f6730289ae.sdkstatcache
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/swift_error_handling_demo.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -o /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/SDKStatCaches.noindex/macosx26.2-25C58-00fa09913b459cbbc988d1f6730289ae.sdkstatcache
+
+CreateBuildDirectory /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/swift_error_handling_demo.xcodeproj
+    builtin-create-build-directory /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/ExplicitPrecompiledModules
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/swift_error_handling_demo.xcodeproj
+    builtin-create-build-directory /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+CreateBuildDirectory /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/swift_error_handling_demo.xcodeproj
+    builtin-create-build-directory /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug
+
+WriteAuxiliaryFile /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo-99bfd999a4d574010be4332140880a99-VFS/all-product-headers.yaml
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/swift_error_handling_demo.xcodeproj
+    write-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo-99bfd999a4d574010be4332140880a99-VFS/all-product-headers.yaml
+
+WriteAuxiliaryFile /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-DebugDylibInstallName-normal-x86_64.txt (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    write-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-DebugDylibInstallName-normal-x86_64.txt
+
+WriteAuxiliaryFile /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo.hmap (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    write-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo.hmap
+
+WriteAuxiliaryFile /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo.DependencyStaticMetadataFileList (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    write-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-own-target-headers.hmap (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    write-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-own-target-headers.hmap
+
+WriteAuxiliaryFile /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-generated-files.hmap (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    write-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-generated-files.hmap
+
+WriteAuxiliaryFile /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-all-target-headers.hmap (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    write-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-all-target-headers.hmap
+
+WriteAuxiliaryFile /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-all-non-framework-target-headers.hmap (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    write-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-project-headers.hmap (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    write-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-project-headers.hmap
+
+WriteAuxiliaryFile /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-DebugDylibPath-normal-x86_64.txt (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    write-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-DebugDylibPath-normal-x86_64.txt
+
+WriteAuxiliaryFile /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo.DependencyMetadataFileList (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    write-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/empty-swift_error_handling_demo.plist (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    write-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/empty-swift_error_handling_demo.plist
+
+WriteAuxiliaryFile /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo_const_extract_protocols.json (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    write-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo_const_extract_protocols.json
+
+WriteAuxiliaryFile /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.SwiftFileList (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    write-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.SwiftFileList
+
+WriteAuxiliaryFile /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.LinkFileList (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    write-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.LinkFileList
+
+WriteAuxiliaryFile /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.SwiftConstValuesFileList (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    write-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo-OutputFileMap.json (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    write-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo-OutputFileMap.json
+
+WriteAuxiliaryFile /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/DerivedSources/Entitlements.plist (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    write-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/DerivedSources/Entitlements.plist
+
+MkDir /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    /bin/mkdir -p /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents
+
+MkDir /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/MacOS (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    /bin/mkdir -p /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/MacOS
+
+MkDir /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    /bin/mkdir -p /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app
+
+ProcessProductPackaging "" /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo.app.xcent (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    
+    Entitlements:
+    
+    {
+    "com.apple.security.get-task-allow" = 1;
+}
+    
+    builtin-productPackagingUtility -entitlements -format xml -o /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo.app.xcent
+
+ProcessProductPackagingDER /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo.app.xcent /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo.app.xcent.der (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    /usr/bin/derq query -f xml -i /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo.app.xcent -o /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo.app.xcent.der --raw
+
+Ld /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/MacOS/__preview.dylib normal (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-macos14.0 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -O0 -L/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug -F/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug -install_name @rpath/swift_error_handling_demo.debug.dylib -rdynamic -Xlinker -no_deduplicate -Xlinker -dependency_info -Xlinker /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo_dependency_info.dat -Xlinker -no_adhoc_codesign -o /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/MacOS/__preview.dylib
+
+ProcessInfoPlistFile /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/Info.plist /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/empty-swift_error_handling_demo.plist (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    builtin-infoPlistUtility /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/empty-swift_error_handling_demo.plist -producttype com.apple.product-type.application -genpkginfo /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/Info.plist
+
+SwiftDriver swift_error_handling_demo normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name swift_error_handling_demo -Onone -enforce-exclusivity\=checked @/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -target x86_64-apple-macos14.0 -g -module-cache-path /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug -F /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug -c -j12 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/SDKStatCaches.noindex/macosx26.2-25C58-00fa09913b459cbbc988d1f6730289ae.sdkstatcache -output-file-map /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.swiftmodule -validate-clang-modules-once -clang-build-session-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo_const_extract_protocols.json -Xcc -iquote -Xcc /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-generated-files.hmap -Xcc -I/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-own-target-headers.hmap -Xcc -I/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-all-target-headers.hmap -Xcc -iquote -Xcc /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-project-headers.hmap -Xcc -I/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/include -Xcc -I/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/DerivedSources-normal/x86_64 -Xcc -I/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/DerivedSources/x86_64 -Xcc -I/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo-Swift.h -working-directory /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo -experimental-emit-module-separately -disable-cmo
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/_Builtin_stdarg-EDW2I03JRYKA6JZGSF28VRR3S.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/_SwiftConcurrencyShims-RLC2PG0MDSYX8R0K3I9CBMZ2.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/ptrauth-CFC0ZLF30YRD88LENTCE0SHCZ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/_Builtin_stddef-CM2VLOOFT35R4Y92BN8O9ZA2V.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/_Builtin_stdbool-CKPU97LBAUI2L5RPQ7YDUG0JO.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/SwiftShims-2131ZC4FHVZHKJ46S0FF8XU8J.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/_AvailabilityInternal-BE73PXSTTFRXL4NDBT219IO89.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/_Builtin_float-CKRXMX8CHPIOGANOYBILINZD8.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/ptrcheck-9VOG19FB0G06X9U80NAQ4Z0PC.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/_DarwinFoundation1-7NEY2AKVDW89RKMGLUB8DRV2X.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/_Builtin_limits-54GKK129OF9YPFH3WGRGIWP95.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/_DarwinFoundation2-ESCSP96NZ03HXW1O8TWZC7TF1.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/sys_types-3PMJN4XSCLCC7Q1YKG27EQ4WV.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/_Builtin_stdint-5OZY5DF5ITJH0IZGCCCST8AXG.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/libDER-AU2TWLA946BYURV0W4FUNETUT.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/_DarwinFoundation3-3B9YRIH91JEMRBJDQV9KTRSJT.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/_Builtin_intrinsics-CNIH9UNOSO7Y52EY73GP88Q1M.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/_Builtin_inttypes-C7GO7WN3R69PMVOTYEQF12LCR.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/Darwin-CM8VP85LIQB3LFLDQSSHTI7P3.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/libkern-40ED414OM4E644B5LIPSLCZJH.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/MachO-CKR2514870MI48BFVU8K49G4T.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/launch-ACR54WGBGCD26F9PMB9GQQFTB.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/ObjectiveC-8UH7XRE2FBH478T5PHEX2DRPN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/os_object-5Z3UU8RTA6VJMDD8LFVM1NH26.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/os_workgroup-9UXKO1I6YDKLRA98B2PJ8PMNM.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/Dispatch-DQS1S0XECP8W81JW55VRT6CG0.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/XPC-12G1NJ3TDNMNKD3PU9QLEA5SH.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/CoreFoundation-8INX8RIXF77SL68DXKDX7DO0I.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/CFNetwork-E3CFSTGMP19TNHJQ60LHJ59O2.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/IOKit-80SLQJJ84IHB7HT688QOQ37W.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/Security-52N789TR4XQ7QH5PXWB40UKRX.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/DiskArbitration-339ZVNMGKYLERGHTFN58BFFMO.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/CoreServices-3EQOOI712OV3H40AHXCJH4UOU.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/Foundation-2O9GNX47WFWIK7B56YKKG6OF.pcm
+
+SwiftEmitModule normal x86_64 Emitting\ module\ for\ swift_error_handling_demo (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+
+SwiftCompile normal x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/Sources/main.swift (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    
+
+SwiftCompile normal x86_64 Compiling\ main.swift /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/Sources/main.swift (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+SwiftCompile normal x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/Sources/main.swift (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    
+
+SwiftDriverJobDiscovery normal x86_64 Emitting module for swift_error_handling_demo (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+
+SwiftDriver\ Compilation\ Requirements swift_error_handling_demo normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name swift_error_handling_demo -Onone -enforce-exclusivity\=checked @/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -target x86_64-apple-macos14.0 -g -module-cache-path /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug -F /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug -c -j12 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/SDKStatCaches.noindex/macosx26.2-25C58-00fa09913b459cbbc988d1f6730289ae.sdkstatcache -output-file-map /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.swiftmodule -validate-clang-modules-once -clang-build-session-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo_const_extract_protocols.json -Xcc -iquote -Xcc /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-generated-files.hmap -Xcc -I/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-own-target-headers.hmap -Xcc -I/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-all-target-headers.hmap -Xcc -iquote -Xcc /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-project-headers.hmap -Xcc -I/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/include -Xcc -I/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/DerivedSources-normal/x86_64 -Xcc -I/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/DerivedSources/x86_64 -Xcc -I/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo-Swift.h -working-directory /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo -experimental-emit-module-separately -disable-cmo
+
+SwiftMergeGeneratedHeaders /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/DerivedSources/swift_error_handling_demo-Swift.h /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo-Swift.h (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    builtin-swiftHeaderTool -arch x86_64 /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo-Swift.h -o /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/DerivedSources/swift_error_handling_demo-Swift.h
+
+Copy /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.swiftmodule/x86_64-apple-macos.swiftdoc /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.swiftdoc (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.swiftdoc /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.swiftmodule/x86_64-apple-macos.swiftdoc
+
+Copy /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.swiftmodule/x86_64-apple-macos.swiftmodule /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.swiftmodule (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.swiftmodule /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.swiftmodule/x86_64-apple-macos.swiftmodule
+
+Copy /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.swiftmodule/x86_64-apple-macos.abi.json /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.abi.json (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.abi.json /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.swiftmodule/x86_64-apple-macos.abi.json
+
+Copy /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.swiftsourceinfo (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.swiftsourceinfo /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo
+
+SwiftDriverJobDiscovery normal x86_64 Compiling main.swift (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+
+SwiftDriver\ Compilation swift_error_handling_demo normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name swift_error_handling_demo -Onone -enforce-exclusivity\=checked @/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.SwiftFileList -DDEBUG -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -target x86_64-apple-macos14.0 -g -module-cache-path /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 5 -I /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug -F /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug -c -j12 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/SDKStatCaches.noindex/macosx26.2-25C58-00fa09913b459cbbc988d1f6730289ae.sdkstatcache -output-file-map /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex -sdk-module-cache-path /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.swiftmodule -validate-clang-modules-once -clang-build-session-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo_const_extract_protocols.json -Xcc -iquote -Xcc /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-generated-files.hmap -Xcc -I/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-own-target-headers.hmap -Xcc -I/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-all-target-headers.hmap -Xcc -iquote -Xcc /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-project-headers.hmap -Xcc -I/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/include -Xcc -I/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/DerivedSources-normal/x86_64 -Xcc -I/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/DerivedSources/x86_64 -Xcc -I/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo-Swift.h -working-directory /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo -experimental-emit-module-separately -disable-cmo
+
+Ld /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/MacOS/swift_error_handling_demo.debug.dylib normal (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-macos14.0 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -O0 -L/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug -L/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug -F/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/EagerLinkingTBDs/Debug -F/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug -filelist /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.LinkFileList -install_name @rpath/swift_error_handling_demo.debug.dylib -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/../Frameworks -Xlinker -object_path_lto -Xlinker /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -dependency_info -Xlinker /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.swiftmodule @/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo-linker-args.resp -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -Xlinker -no_adhoc_codesign -o /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/MacOS/swift_error_handling_demo.debug.dylib
+
+ConstructStubExecutorLinkFileList /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-ExecutorLinkFileList-normal-x86_64.txt (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    construct-stub-executor-link-file-list /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/MacOS/swift_error_handling_demo.debug.dylib /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-ExecutorLinkFileList-normal-x86_64.txt
+note: Using stub executor library with Swift entry point. (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+
+Ld /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/MacOS/swift_error_handling_demo normal (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-macos14.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk -O0 -L/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug -F/Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/../Frameworks -rdynamic -Xlinker -no_deduplicate -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-DebugDylibPath-normal-x86_64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-DebugDylibInstallName-normal-x86_64.txt -Xlinker -filelist -Xlinker /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo-ExecutorLinkFileList-normal-x86_64.txt /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/MacOS/swift_error_handling_demo.debug.dylib -Xlinker -no_adhoc_codesign -o /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/MacOS/swift_error_handling_demo
+
+CopySwiftLibs /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    builtin-swiftStdLibTool --copy --verbose --sign - --scan-executable /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/MacOS/swift_error_handling_demo.debug.dylib --scan-folder /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/Frameworks --scan-folder /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/PlugIns --scan-folder /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/Library/SystemExtensions --scan-folder /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/Extensions --platform macosx --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os --back-deploy-swift-span
+
+ExtractAppIntentsMetadata (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name swift_error_handling_demo --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk --xcode-version 17C529 --platform-family macOS --deployment-target 14.0 --bundle-identifier com.freewind.swifterrorhandlingdemo --output /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/Resources --target-triple x86_64-apple-macos14.0 --binary-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/MacOS/swift_error_handling_demo --dependency-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo_dependency_info.dat --stringsdata-file /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.SwiftFileList --metadata-file-list /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo.DependencyMetadataFileList --static-metadata-file-list /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo.DependencyStaticMetadataFileList --swift-const-vals-list /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/Objects-normal/x86_64/swift_error_handling_demo.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-05-19 17:12:33.604 appintentsmetadataprocessor[43448:3600728] Starting appintentsmetadataprocessor export
+2026-05-19 17:12:33.607 appintentsmetadataprocessor[43448:3600728] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+
+CodeSign /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/MacOS/swift_error_handling_demo.debug.dylib (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/MacOS/swift_error_handling_demo.debug.dylib
+
+CodeSign /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/MacOS/__preview.dylib (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --timestamp\=none --generate-entitlement-der /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app/Contents/MacOS/__preview.dylib
+
+CodeSign /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    
+    Signing Identity:     "Sign to Run Locally"
+    
+    /usr/bin/codesign --force --sign - --entitlements /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/DerivedData/Build/Intermediates.noindex/swift_error_handling_demo.build/Debug/swift_error_handling_demo.build/swift_error_handling_demo.app.xcent --timestamp\=none --generate-entitlement-der /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app
+
+RegisterExecutionPolicyException /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    builtin-RegisterExecutionPolicyException /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app
+
+Validate /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    builtin-validationUtility /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app -no-validate-extension -infoplist-subpath Contents/Info.plist
+
+Touch /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    /usr/bin/touch -c /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app
+
+RegisterWithLaunchServices /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app (in target 'swift_error_handling_demo' from project 'swift_error_handling_demo')
+    cd /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo
+    /System/Library/Frameworks/CoreServices.framework/Versions/Current/Frameworks/LaunchServices.framework/Versions/Current/Support/lsregister -f -R -trusted /Volumes/SN550-2T/freewind-demos/swift-error-handling-demo/build/out/Debug/swift_error_handling_demo.app
+
+** BUILD SUCCEEDED **
+

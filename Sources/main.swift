@@ -1,5 +1,7 @@
 // swift-error-handling-demo.swift
 
+import Foundation
+
 // ============ 定义错误类型 ============
 enum NetworkError: Error {
     case badURL
